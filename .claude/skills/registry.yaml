@@ -1,0 +1,27 @@
+# ============================================
+# SKILLS REGISTRY
+# ============================================
+# Central registry for all Claude Code skills in this repo.
+# Reference this file to discover available skills and their usage.
+#
+# Invoke any skill by typing:
+#   /<skill-name> <arguments>
+#
+# Example:
+#   /generate-theory-notebook Try/Except 08-errors-and-exceptions 02 "try/except block, catching specific errors"
+# ============================================
+
+skills:
+  generate-theory-notebook:
+    path: ./generate-theory-notebook
+    description: Generates a theory notebook .ipynb file for a given topic following the repo's lesson anatomy — The Problem → sub-concept sections → Summary. Creates the file directly in the correct module folder.
+    argument-hint: "<topic> <module-folder> <notebook-number> <sub-concepts>"
+    category: notebook-generation
+    user-invocable: true
+
+  generate-exercise-notebook:
+    path: ./generate-exercise-notebook
+    description: Generates an exercise notebook .ipynb file pairing with a theory notebook. Produces 5 blank-code-cell exercises (one per sub-concept) in the correct exercises/ subfolder.
+    argument-hint: "<topic> <module-folder> <notebook-number> <sub-concepts>"
+    category: notebook-generation
+    user-invocable: true
