@@ -1,0 +1,4 @@
+Sales: 150
+Returns: 12
+Net sales: 138
+Status: completed
