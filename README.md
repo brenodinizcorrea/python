@@ -99,6 +99,7 @@ A complete Python study path — from the language fundamentals all the way to l
 │   ├── 04-class-and-static-methods.ipynb   @classmethod vs @staticmethod vs instance method
 │   ├── 05-inheritance.ipynb                Inheriting from a class; overriding; super()
 │   └── 06-polymorphism.ipynb               Same interface, different behavior; duck typing; isinstance()
+|   └── 07-special-methods.ipynb
 │
 ├── 12-python-data-model/
 │   ├── 01-dunder-methods.ipynb             What dunder methods are; how Python calls them implicitly
